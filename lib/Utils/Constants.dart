@@ -10,7 +10,7 @@ class AppUrl {
 
   static const String liveBaseURL = "http://api.ma3app.com/";
   static const String devBaseURL = "http://bossapi.99synergy.com/";
-  static const String companyToken = "794F7674-542C-4674-A475-0D0C6AFA617F";
+  static const String companyToken = "26B812BC-0529-4A57-8BD9-08820B7F46B3";
   static const String defaultToken = "4F5D3QC5-C94A-CFD5-87C1-4E2903311DF0";
   static const String baseURL = liveBaseURL;
   static Uri login = Uri.parse(baseURL + "appApi/AppUser/LoginUsers");
@@ -77,9 +77,13 @@ class AppUrl {
 
   static String resendOTP = '${baseURL}appApi/AppUser/ReSendOTP';
 
-  static String companyName="Ena Coach";
+  static String companyName="Tahmeed Coach";
 
-  static String companyAbout="Our vision is to offer world-class transportation services in an innovative way while harnessing the use of technology to delight retain and defend our clients.ENA Coach is a bus and shuttle company being run by ENA Investments Limited. The company has been operational since 2010 and rebranded from 2008 to 2018 With Experience in the PSV industry and courier services, ENA Coach in partnership with Explorer Parcel Handlers (EPH) has evaluated the challenges and come up with better services to offer exemplary services. ENA Coach covers more than 30 routes within Kenya and is working round the clock to add more routes within Kenya and the greater East African region.";
+  static String companyAbout="With a network covering all the top cities within the expansive East African region, Tahmeed Transporters is your number one bus company when it comes to comfortable, safe and affordable bus travel. With operations in Kenya, Uganda and Tanzania, the company has a fleet of over 50 luxurious and comfortable buses.\n"+"We have been in operation for a decade and our service delivery improves with age. Our fleet is built to 5-star specifications and an experience defined by professionalism and punctuality.\n"+
+
+  "Our amazing line of luxury models buses with free WiFi, Electrical Charging Outlets, DVD players, reclining seats, air conditioned and flat screen TV’s. Our mission is to provide excellent, safe, and reliable transportation to all our clients.\n"+
+
+  "We also provide charter buses for all occasions. No matter where you want to go or when you want to go there, the easiest way to get there is with us. If you have any questions regardingÂ our company or services, please feel free to call or email us. Thank you for visiting our website and we look forward to handling your travel needs in near future.";
   static Widget getAmenityItem(String item){
     late IconData icon=Icons.air;
     late String name;

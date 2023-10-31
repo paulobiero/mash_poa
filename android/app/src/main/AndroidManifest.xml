@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.enacoach">
+    package="com.tahmeedcoach">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <queries>
@@ -15,8 +15,8 @@
     </queries>
     <application
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher_ena"
-        android:label="Ena Coach">
+        android:icon="@mipmap/ic_launcher_tahmeed"
+        android:label="Tahmeed Coach">
 
         <activity
             android:name=".MainActivity"
