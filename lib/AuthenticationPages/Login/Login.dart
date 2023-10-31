@@ -86,7 +86,7 @@ class _Login extends State<Login> {
             next != null ? nextField(value: e, focus: next) : null;
           },
           decoration: const InputDecoration(
-              fillColor: Colors.deepOrange,
+              fillColor: Colors.yellow,
               border: OutlineInputBorder(borderSide: BorderSide.none))),
     );
   }
@@ -169,7 +169,7 @@ class _Login extends State<Login> {
                           text: TextSpan(
                             text: "Login",
                             style: TextStyle(
-                                color: Colors.orange.shade700,
+                                color: Colors.orange.shade500,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 30),
                             children: const <TextSpan>[
@@ -299,7 +299,7 @@ class _Login extends State<Login> {
                                   margin: EdgeInsets.only(top: 20, bottom: 50),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color: Colors.orange.shade800,
+                                      color: Colors.orange.shade500,
                                       borderRadius: BorderRadius.circular(30)),
                                   child: Center(
                                     child: Text('Login',

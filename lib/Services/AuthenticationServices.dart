@@ -30,10 +30,14 @@ class AuthenticationServices {
 
     return prefs.commit();
   }
-  Future<Map<String, dynamic>> resendOTP(
-      String phonme) async {
+
+  Future<Map<String, dynamic>> resendOTP(String phonme) async {
     dioo.Response response;
-    var returnValue = {"status": false, "verificationKey": "","message":"An error occurred during operation"};
+    var returnValue = {
+      "status": false,
+      "verificationKey": "",
+      "message": "An error occurred during operation"
+    };
     var dio = dioo.Dio();
     var deviceID = "";
     try {
@@ -70,7 +74,6 @@ class AuthenticationServices {
     if (response.statusCode == 200) {
       // final jsonData = json.decode(response.data.toString());
       if (response.data['isSuccess']) {
-
         returnValue = {"status": true, "message": "OTP sent to 254$phonme"};
       }
 
@@ -79,6 +82,7 @@ class AuthenticationServices {
     } else if (response.statusCode == 401) {}
     return returnValue;
   }
+
   Future<bool> saveUser2(UserInfo user) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
 
@@ -125,7 +129,7 @@ class AuthenticationServices {
     String? currencyId = prefs.getString("currencyId");
     String? age = prefs.getString("age");
     String? idNumber =
-        prefs.containsKey("id_number") ? prefs.getString("id_number") : "";
+    prefs.containsKey("id_number") ? prefs.getString("id_number") : "";
 
     return UserInfo(
         id: id!,
@@ -286,8 +290,7 @@ class AuthenticationServices {
     try {
       final Map<String, dynamic> responseData = json.decode(response.body);
 
-      if (response.statusCode == 200) {
-      } else {
+      if (response.statusCode == 200) {} else {
         result = {'status': false, 'message': "Error"};
       }
     } on Exception {
@@ -349,8 +352,8 @@ class AuthenticationServices {
     return returnValue;
   }
 
-  Future<Map<String, dynamic>> verifyOTP(
-      String phonme, String code, int key) async {
+  Future<Map<String, dynamic>> verifyOTP(String phonme, String code,
+      int key) async {
     dioo.Response response;
     var returnValue = {"status": false, "verificationKey": ""};
     var dio = dioo.Dio();
@@ -440,10 +443,10 @@ class AuthenticationServices {
     print(response.statusCode);
     print(response.data);
     if (response.statusCode == 200) {
-      // final jsonData = json.decode(response.data.toString());
+     //  final jsonData = json.decode(response.data.toString());
       if (response.data['isSuccess']) {
-        AuthenticationServices()
-            .saveUser(UserInfo.fromJson(response.data['data']));
+        UserInfo userInfo=UserInfo.fromJson(response.data['data']);
+        saveUser(userInfo);
         returnValue = {"status": true, "message": "Welcome to Transline"};
       }
 
@@ -453,8 +456,7 @@ class AuthenticationServices {
     return returnValue;
   }
 
-  Future<Map<String, dynamic>> createUserProfile(
-      String firstName,
+  Future<Map<String, dynamic>> createUserProfile(String firstName,
       String lastName,
       String phone,
       String email,
@@ -530,8 +532,8 @@ class AuthenticationServices {
     return returnValue;
   }
 
-  Future<Map<String, dynamic>> resetPassword(
-      String confirm_password, String password, String phone) async {
+  Future<Map<String, dynamic>> resetPassword(String confirm_password,
+      String password, String phone) async {
     dioo.Response response;
     var dio = dioo.Dio();
     UserInfo userInfo = await AuthenticationServices().getUser();
@@ -564,7 +566,7 @@ class AuthenticationServices {
       "country_code": "254",
       "token": AppUrl.companyToken,
       "device_number": deviceID,
-      "sourcetype": "web"
+      "sourcetype": "app"
     };
     response = await dio.post(AppUrl.resetPassword, data: loginData);
     print(response.statusCode);
@@ -578,13 +580,13 @@ class AuthenticationServices {
     return returnValue;
   }
 
-  Future<Map<String, dynamic>> changePassword(
-      String confirm_password, String password, String oldPassword) async {
+  Future<Map<String, dynamic>> changePassword(String phone,
+      String password, String oldPassword) async {
     dioo.Response response;
     var dio = dioo.Dio();
     UserInfo userInfo = await AuthenticationServices().getUser();
     dio.options.headers['Content-Type'] = 'application/json';
-    dio.options.headers["Authorization"] = userInfo.api_access_token;
+    dio.options.headers["Authorization"] = AppUrl.defaultToken;
     dio.options.headers["source"] = 'web';
     var returnValue = {
       "status": false,
@@ -605,16 +607,15 @@ class AuthenticationServices {
     } on PlatformException {
       print('Failed to get platform version');
     }
-    final Map<String, dynamic> loginData = {
+
+    final Map<String, dynamic> resetData = {
+      "phone": phone,
       "newPassword": password,
-      "confirmPassword": confirm_password,
-      "oldPassword": oldPassword,
-      "country_code": "254",
-      "token": AppUrl.companyToken,
-      "device_number": deviceID,
-      "sourcetype": "web"
+      "confirmPassword":oldPassword,
+      "token": AppUrl.companyToken
     };
-    response = await dio.post(AppUrl.changePassword, data: loginData);
+    print("The payload is ${resetData}");
+    response = await dio.post(AppUrl.changePassword, data: resetData);
     print(response.statusCode);
     print(response.data);
     if (response.statusCode == 200) {

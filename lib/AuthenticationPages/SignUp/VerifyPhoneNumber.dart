@@ -65,7 +65,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
             next != null ? nextField(value: e, focus: next) : null;
           },
           decoration: const InputDecoration(
-              fillColor: Colors.deepOrange,
+              fillColor: Colors.yellow,
               border: OutlineInputBorder(borderSide: BorderSide.none))),
     );
   }
@@ -145,7 +145,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                         child:RichText(
                           text: TextSpan(
                             text: "Create",
-                            style: TextStyle(color: Colors.orange.shade700,fontWeight: FontWeight.bold,fontSize: 30),
+                            style: TextStyle(color: Colors.yellow.shade700,fontWeight: FontWeight.bold,fontSize: 30),
                             children: const <TextSpan>[
                               TextSpan(text: ' Account ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white)),
 
@@ -240,7 +240,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                                   margin: EdgeInsets.only(top: 20),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color: Colors.orange.shade700,
+                                      color: Colors.yellow.shade700,
                                       borderRadius: BorderRadius.circular(30)),
                                   child: Center(
                                     child: Text('Continue',

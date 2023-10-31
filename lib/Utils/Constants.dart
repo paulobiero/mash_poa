@@ -1,12 +1,16 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:mash/Models/BookingPassengerModel.dart';
 import 'package:mash/Models/LocationItemModel.dart';
 import 'package:mash/Models/SelectedSeatModel.dart';
 import 'package:mash/Models/TripListModel.dart';
 
 class AppUrl {
+//  {"phone":799442437,"newPassword":"46hBE.yefqEsg","confirmPassword":"46hBE.yefqEsg","token":"794F7674-542C-4674-A475-0D0C6AFA617F"}
+
   static const String liveBaseURL = "http://api.ma3app.com/";
   static const String devBaseURL = "http://bossapi.99synergy.com/";
-  static const String companyToken = "54M91C72-2CF4-4591-A6E9-02A60UPBAE4C";
+  static const String companyToken = "794F7674-542C-4674-A475-0D0C6AFA617F";
   static const String defaultToken = "4F5D3QC5-C94A-CFD5-87C1-4E2903311DF0";
   static const String baseURL = liveBaseURL;
   static Uri login = Uri.parse(baseURL + "appApi/AppUser/LoginUsers");
@@ -72,4 +76,48 @@ class AppUrl {
       Uri.parse(baseURL + "appApi/paymentGateway/reInit");
 
   static String resendOTP = '${baseURL}appApi/AppUser/ReSendOTP';
+
+  static String companyName="Ena Coach";
+
+  static String companyAbout="Our vision is to offer world-class transportation services in an innovative way while harnessing the use of technology to delight retain and defend our clients.ENA Coach is a bus and shuttle company being run by ENA Investments Limited. The company has been operational since 2010 and rebranded from 2008 to 2018 With Experience in the PSV industry and courier services, ENA Coach in partnership with Explorer Parcel Handlers (EPH) has evaluated the challenges and come up with better services to offer exemplary services. ENA Coach covers more than 30 routes within Kenya and is working round the clock to add more routes within Kenya and the greater East African region.";
+  static Widget getAmenityItem(String item){
+    late IconData icon=Icons.air;
+    late String name;
+    switch(item){
+      case "1":
+        icon=Icons.air;
+        name="Air conditioning";
+        break;
+      case "3":
+        icon=Icons.wifi;
+        name="Wifi";
+        break;
+      case "2":
+        icon=Icons.music_video;
+        name="DVD";
+        break;
+      case "4":
+        icon=Icons.battery_charging_full_outlined;
+        name="Phone charging";
+        break;
+      case "5":
+        icon=Icons.gps_fixed;
+        name="GPS Tracking";
+        break;
+      case "6":
+        icon=Icons.water_drop_rounded;
+        name="Water";
+        break;
+      case "7":
+        icon=Icons.newspaper;
+        name="Newspaper";
+        break;
+
+
+    }
+    return Row(children: [
+      Icon(icon),
+
+    ],);
+  }
 }

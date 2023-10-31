@@ -49,7 +49,7 @@ class _ContactUs extends State<ContactUs> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
-                child: Text("TRANSLINE CLASSIC LTD",
+                child: Text("ENACOACH LTD",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
@@ -60,7 +60,7 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                 padding: EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "OLA Service station next to Afya center building Along Tom Mboya Avenue",
+                    "Location: KPCU Building (Wakulima House), Ground Floor Along Haile Selassie Avenue Nairobi, Kenya",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
@@ -73,13 +73,13 @@ class _ContactUs extends State<ContactUs> {
                         GoogleFonts.rubik(fontSize: 15, color: Colors.black),
                         children: const <TextSpan>[
                           TextSpan(
-                              text: 'translineclassic20@gmail.com',
+                              text: 'enacoach@gmail.com',
                               style: TextStyle(color: Colors.blue)),
                         ],
                       ),
                     ),
                     onTap: ()async{
-                      var url = Uri.parse("mailto:translineclassic20@gmail.com");
+                      var url = Uri.parse("mailto:enacoach@gmail.com");
                       if (await canLaunchUrl(url)) {
                       await launchUrl(url);
                       } else {
@@ -96,11 +96,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet 0720255355",
+                    child: Text("$bullet 0709832000",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel:0720255355");
+                      var url = Uri.parse("tel:0709832000");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {
@@ -111,11 +111,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet 0720255355",
+                    child: Text("$bullet 0709832000",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel:0720255355");
+                      var url = Uri.parse("tel:0709832000");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {
@@ -126,11 +126,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet 0794837330",
+                    child: Text("$bullet 0709832000",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel:0794837330");
+                      var url = Uri.parse("tel:0709832000");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {

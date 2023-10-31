@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mash/Utils/Constants.dart';
 
 import 'Dialogs/AboutUs.dart';
 import 'Dialogs/TermsAndConditions.dart';
@@ -60,8 +61,8 @@ class _AboutLandingPage extends State<AboutLandingPage> {
 
     setState(() {
       items.add(AboutItem(
-          name: "About Mash EA",
-          content: "Learn more about Mash EA",
+          name: "About ${AppUrl.companyName}",
+          content: "Learn more about ${AppUrl.companyName}",
           icon: const Icon(Icons.info),
           onClick: () {
             Navigator.push(
@@ -74,7 +75,7 @@ class _AboutLandingPage extends State<AboutLandingPage> {
           }));
       items.add(AboutItem(
           name: "Terms and conditions",
-          content: "Rules to follow while using Mash EA",
+          content: "Rules to follow while using ${AppUrl.companyName}",
           icon: const Icon(Icons.receipt_long),
           onClick: () {
             Navigator.push(
@@ -87,7 +88,7 @@ class _AboutLandingPage extends State<AboutLandingPage> {
           }));
       items.add(AboutItem(
           name: "Privacy Policy",
-          content: "Learn how your data is handled on Mash EA",
+          content: "Learn how your data is handled on ${AppUrl.companyName}",
           icon: const Icon(Icons.receipt),
           onClick: () {
             Navigator.push(

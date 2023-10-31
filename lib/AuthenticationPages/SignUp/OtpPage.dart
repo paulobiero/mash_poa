@@ -84,7 +84,7 @@ class _OtpPage extends State<OtpPage> {
             next != null ? nextField(value: e, focus: next) : null;
           },
           decoration: InputDecoration(
-              fillColor: Colors.orange.shade700,
+              fillColor: Colors.yellow.shade700,
               border: OutlineInputBorder(borderSide: BorderSide.none))),
     );
   }
@@ -172,7 +172,7 @@ class _OtpPage extends State<OtpPage> {
                           text: TextSpan(
                             text: "Confirm",
                             style: TextStyle(
-                                color: Colors.orange.shade700,
+                                color: Colors.yellow.shade700,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 30),
                             children: const <TextSpan>[
@@ -347,7 +347,7 @@ class _OtpPage extends State<OtpPage> {
                                       EdgeInsets.only(top: size.height * .1),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color: Colors.orange.shade700,
+                                      color: Colors.yellow.shade700,
                                       borderRadius: BorderRadius.circular(30)),
                                   child: Center(
                                     child: Text('Continue',

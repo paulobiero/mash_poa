@@ -95,7 +95,7 @@ class _SignUpPage extends State<SignUpPage> {
                             text: "Forget",
                             style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 30),
                             children:  <TextSpan>[
-                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.yellow.shade700)),
+                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orange.shade700)),
 
                             ],
                           ),
@@ -202,15 +202,15 @@ margin: EdgeInsets.only(top: 180),
                                    return;
                                   }
                                pr.show();
-                                AuthenticationServices().resetPassword(confirm_password, password,widget.title).then((value) =>
+                                AuthenticationServices().changePassword(widget.title, password,confirm_password).then((value) =>
                                 {
                                 pr.hide(),
-                                  if(value['status'])
+                                  if(value['isSuccess'])
                                     {
 
                                 ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                                   behavior: SnackBarBehavior.floating,
-                                  content: Text(value['message']),
+                                  content: Text(value['msg']),
                                   duration: Duration(seconds: 3),
                                 )),
                               Navigator.pushReplacement(
@@ -225,7 +225,7 @@ margin: EdgeInsets.only(top: 180),
                                   else{
                                     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                                       behavior: SnackBarBehavior.floating,
-                                      content: Text(value['message']),
+                                      content: Text(value['msg']),
                                       duration: Duration(seconds: 3),
                                     ))
                                   }
@@ -243,8 +243,8 @@ margin: EdgeInsets.only(top: 180),
                                   borderRadius: BorderRadius.circular(10),
                                   gradient: LinearGradient(
                                       colors: [
-                                        Colors.yellow.shade700,
-                                        Colors.yellow.shade700,
+                                        Colors.orange.shade500,
+                                        Colors.orange.shade500,
                                       ]
                                   )
                               ),

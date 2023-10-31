@@ -36,7 +36,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
         decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(30)),
             boxShadow: <BoxShadow>[],
-            color: Colors.orange.shade700),
+            color: Colors.orange.shade500),
         child: const Text(
           'Login',
           style: TextStyle(fontSize: 20, color: Colors.white),
@@ -110,8 +110,9 @@ class _AuthLandingPage extends State<AuthLandingPage> {
                           borderRadius: const BorderRadius.all(Radius.circular(100)),
                           boxShadow: <BoxShadow>[],
                           color: Colors.white),
+                      padding: EdgeInsets.only(top: 10,left: 5,right: 5),
                       child: Image.asset(
-                        'assets/images/mash logo-02.png',
+                        'assets/images/images-removebg-preview.png',
                         height: 30,
                       ) ,
                     )),
@@ -196,7 +197,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
                       decoration: const BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage(
-                                  'assets/images/Mash-Cool.png'))),
+                                  'assets/images/376807204_297617099640439_7192592057482886871_n-removebg-preview.png'))),
                     ))
               ],
             ),

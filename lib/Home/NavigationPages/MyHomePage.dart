@@ -141,7 +141,7 @@ class _MyHomePage extends State<MyHomePage> {
         decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(30)),
             boxShadow: const <BoxShadow>[],
-            color: Colors.orange.shade700),
+            color: Colors.orange.shade500),
         child: const Text(
           'Search',
           style: TextStyle(

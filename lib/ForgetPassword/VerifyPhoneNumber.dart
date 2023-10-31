@@ -78,7 +78,12 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
               border: OutlineInputBorder(borderSide: BorderSide.none))),
     );
   }
-
+  void _togglePasswordView() {
+    setState(() {
+      _isHidden = !_isHidden;
+      print("test " + _isHidden.toString());
+    });
+  }
   @override
   void dispose() {
     _field1.dispose();
@@ -90,7 +95,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
   final TextEditingController controller = TextEditingController();
   String initialCountry = 'KE';
   PhoneNumber number = PhoneNumber(isoCode: 'KE');
-  String text = '';
+  String text = '',password="",confirm_password="";
   Widget otpNumberWidget(int position) {
     try {
       return Container(
@@ -156,7 +161,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                             text: "Forgot",
                             style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 30),
                             children:  <TextSpan>[
-                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.yellow.shade700)),
+                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orange.shade700)),
 
                             ],
                           ),
@@ -186,7 +191,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                           Text('Write correct phone number to continue',
                               style: GoogleFonts.inter(color: Colors.grey.shade700)),
                           const SizedBox(
-                            height: 96,
+                            height: 6,
                           ),
                           Form(
                             key: formKey,
@@ -234,8 +239,6 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                                     ),
                                     ),
                                   ),
-
-
                                 ],
                               ),
                             ),
@@ -275,7 +278,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                                   margin: EdgeInsets.only(top: size.height*.1),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color: Colors.yellow.shade700,
+                                      color: Colors.orange.shade700,
                                       borderRadius: BorderRadius.circular(12)),
                                   child: Center(
                                     child: Text('Continue',
