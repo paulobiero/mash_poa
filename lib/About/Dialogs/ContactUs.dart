@@ -49,7 +49,7 @@ class _ContactUs extends State<ContactUs> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
-                child: Text("TAHMEED COACH LTD",
+                child: Text("Garissa Coach LTD",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(

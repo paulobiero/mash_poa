@@ -58,7 +58,7 @@ class _PrivacyPolicy extends State<PrivacyPolicy> {
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "The Internet is an amazing tool. It has the power to change the way we live, and we're starting to see that potential today. With only a few mouse-clicks, you can follow the news, look up facts, buy goods and services, and communicate with others from around the world. It's important to Tahmeed Coach to help our customers retain their privacy when they take advantage of all the Internet has to offer.We believe your business is no one else's. Your privacy is important to you and to us. So we'll protect the information you share with us. To protect your privacy, Tahmeed Coach follows different principles in accordance with worldwide practices for customer privacy and data protection",
+                    "The Internet is an amazing tool. It has the power to change the way we live, and we're starting to see that potential today. With only a few mouse-clicks, you can follow the news, look up facts, buy goods and services, and communicate with others from around the world. It's important to Garissa Coach to help our customers retain their privacy when they take advantage of all the Internet has to offer.We believe your business is no one else's. Your privacy is important to you and to us. So we'll protect the information you share with us. To protect your privacy, Garissa Coach follows different principles in accordance with worldwide practices for customer privacy and data protection",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
@@ -109,7 +109,7 @@ class _PrivacyPolicy extends State<PrivacyPolicy> {
               Padding(
                 padding: EdgeInsets.only(top: 10, right: 20, left: 40),
                 child: Text(
-                    "$bullet To alert you to product upgrades, special offers, updated information and other new services from Tahmeed Coach",
+                    "$bullet To alert you to product upgrades, special offers, updated information and other new services from Garissa Coach",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
 
@@ -126,7 +126,7 @@ class _PrivacyPolicy extends State<PrivacyPolicy> {
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "Tahmeed Coach has taken strong measures to protect the security of your personal information and to ensure that your choices for its intended use are honored. We take strong precautions to protect your data from loss, misuse, unauthorized access or disclosure, alteration, or destruction.We guarantee your e-commerce transactions to be 100% safe and secure. When you place orders or access your personal account information, you're utilizing secure server software SSL, which encrypts your personal information before it's sent over the Internet. SSL is one of the safest encryption technologies available.Tahmeed Coach strictly protects the security of your personal information and honors your choices for its intended use. We carefully protect your data from loss, misuse, unauthorized access or disclosure, alteration, or destruction.Your personal information is never shared outside the company without your permission, except under conditions explained above. Inside the company, data is stored in password-controlled servers with limited access. Your information may be stored and processed in Kenya or any other country where TRANSLINE CLASSIC LTD, its subsidiaries, affiliates or agents are located.You also have a significant role in protecting your information. No one can see or edit your personal information without knowing your user name and password, so do not share these with others",
+                    "Garissa Coach has taken strong measures to protect the security of your personal information and to ensure that your choices for its intended use are honored. We take strong precautions to protect your data from loss, misuse, unauthorized access or disclosure, alteration, or destruction.We guarantee your e-commerce transactions to be 100% safe and secure. When you place orders or access your personal account information, you're utilizing secure server software SSL, which encrypts your personal information before it's sent over the Internet. SSL is one of the safest encryption technologies available.Garissa Coach strictly protects the security of your personal information and honors your choices for its intended use. We carefully protect your data from loss, misuse, unauthorized access or disclosure, alteration, or destruction.Your personal information is never shared outside the company without your permission, except under conditions explained above. Inside the company, data is stored in password-controlled servers with limited access. Your information may be stored and processed in Kenya or any other country where TRANSLINE CLASSIC LTD, its subsidiaries, affiliates or agents are located.You also have a significant role in protecting your information. No one can see or edit your personal information without knowing your user name and password, so do not share these with others",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
 
@@ -143,7 +143,7 @@ class _PrivacyPolicy extends State<PrivacyPolicy> {
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "Parents or guardians: we want to help you guard your children's privacy. We encourage you to talk to your children about safe and responsible use of their Personal Information while using the Internet.The Tahmeed Coach site does not publish content that is targeted to children. However, if you are concerned about your children providing Tahmeed Coach any personal information without your consent, Tahmeed Coach offers a Kids account. It allows parents to give parental consent for the collection, use and sharing of childrenâ€™s (ages 12 and under) personal information online.",
+                    "Parents or guardians: we want to help you guard your children's privacy. We encourage you to talk to your children about safe and responsible use of their Personal Information while using the Internet.The Garissa Coach site does not publish content that is targeted to children. However, if you are concerned about your children providing Garissa Coach any personal information without your consent, Garissa Coach offers a Kids account. It allows parents to give parental consent for the collection, use and sharing of childrenâ€™s (ages 12 and under) personal information online.",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
 
@@ -160,7 +160,7 @@ class _PrivacyPolicy extends State<PrivacyPolicy> {
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "If for some reason you believe Tahmeed Coach has not adhered to these principles, please notify us by email at info@mashpoa.com, and we will do our best to determine and correct the problem promptly. Be certain the words Privacy Policy are in the Subject line.",
+                    "If for some reason you believe Garissa Coach has not adhered to these principles, please notify us by email at info@mashpoa.com, and we will do our best to determine and correct the problem promptly. Be certain the words Privacy Policy are in the Subject line.",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
 
@@ -218,7 +218,7 @@ class _PrivacyPolicy extends State<PrivacyPolicy> {
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "Tahmeed Coach will disclose your personal information, without notice, only if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on Tahmeed Coach or the site; (b) protect and defend the rights or property of Tahmeed Coach and its family of Websites, and, (c) act in urgent circumstances to protect the personal safety of users of Tahmeed Coach, its Websites, or the public",
+                    "Garissa Coach will disclose your personal information, without notice, only if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on Garissa Coach or the site; (b) protect and defend the rights or property of Garissa Coach and its family of Websites, and, (c) act in urgent circumstances to protect the personal safety of users of Garissa Coach, its Websites, or the public",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               SizedBox(height: 15.0),

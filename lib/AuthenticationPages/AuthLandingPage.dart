@@ -36,7 +36,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
         decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(30)),
             boxShadow: <BoxShadow>[],
-            color: Colors.orange.shade700),
+            color: Colors.blue.shade700),
         child: const Text(
           'Login',
           style: TextStyle(fontSize: 20, color: Colors.white),
@@ -112,7 +112,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
                           color: Colors.white),
                       padding: EdgeInsets.only(top: 10,left: 10,right: 10),
                       child: Image.asset(
-                        'assets/images/tahmeed.png',
+                        'assets/images/ic_launcher_garissa-playstore-removebg-preview.png',
                         height: 30,
                       ) ,
                     )),
@@ -197,7 +197,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
                       decoration: const BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage(
-                                  'assets/images/advt2-removebg-preview.png'))),
+                                  'assets/images/57081010_1696453050500534_2975648050992644096_n-removebg-preview.png'))),
                     ))
               ],
             ),

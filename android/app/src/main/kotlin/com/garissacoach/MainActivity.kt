@@ -1,4 +1,4 @@
-package com.tahmeedcoach
+package com.garissacoach
 
 import io.flutter.embedding.android.FlutterActivity
 

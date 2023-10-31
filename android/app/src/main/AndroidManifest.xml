@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tahmeedcoach">
+    package="com.garissacoach">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <queries>
@@ -15,8 +15,8 @@
     </queries>
     <application
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher_tahmeed"
-        android:label="Tahmeed Coach">
+        android:icon="@mipmap/ic_launcher_garissa"
+        android:label="Garissa Coach">
 
         <activity
             android:name=".MainActivity"

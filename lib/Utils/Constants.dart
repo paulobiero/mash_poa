@@ -77,7 +77,7 @@ class AppUrl {
 
   static String resendOTP = '${baseURL}appApi/AppUser/ReSendOTP';
 
-  static String companyName="Tahmeed Coach";
+  static String companyName="Garissa Coach";
 
   static String companyAbout="With a network covering all the top cities within the expansive East African region, Tahmeed Transporters is your number one bus company when it comes to comfortable, safe and affordable bus travel. With operations in Kenya, Uganda and Tanzania, the company has a fleet of over 50 luxurious and comfortable buses.\n"+"We have been in operation for a decade and our service delivery improves with age. Our fleet is built to 5-star specifications and an experience defined by professionalism and punctuality.\n"+
 

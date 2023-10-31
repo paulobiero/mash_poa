@@ -158,7 +158,7 @@ class _OtpPage extends State<OtpPage> {
                             text: "Confirm",
                             style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 30),
                             children:  <TextSpan>[
-                              TextSpan(text: ' OTP ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orange.shade500)),
+                              TextSpan(text: ' OTP ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.blue.shade500)),
 
                             ],
                           ),
@@ -295,7 +295,7 @@ class _OtpPage extends State<OtpPage> {
                                   margin: EdgeInsets.only(top: size.height*.1),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color: Colors.orange.shade500,
+                                      color: Colors.blue.shade500,
                                       borderRadius: BorderRadius.circular(12)),
                                   child: Center(
                                     child: Text('Continue',

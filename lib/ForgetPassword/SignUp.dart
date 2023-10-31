@@ -243,8 +243,8 @@ margin: EdgeInsets.only(top: 180),
                                   borderRadius: BorderRadius.circular(10),
                                   gradient: LinearGradient(
                                       colors: [
-                                        Colors.orange.shade500,
-                                        Colors.orange.shade500,
+                                        Colors.blue.shade500,
+                                        Colors.blue.shade500,
                                       ]
                                   )
                               ),
