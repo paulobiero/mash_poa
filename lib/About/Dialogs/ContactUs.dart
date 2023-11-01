@@ -49,7 +49,7 @@ class _ContactUs extends State<ContactUs> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
-                child: Text("Garissa Coach LTD",
+                child: Text("Golden Coach LTD",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
@@ -73,13 +73,13 @@ class _ContactUs extends State<ContactUs> {
                         GoogleFonts.rubik(fontSize: 15, color: Colors.black),
                         children: const <TextSpan>[
                           TextSpan(
-                              text: 'info@tahmeedexpress.com',
+                              text: 'goldencoachlimited@gmail.com',
                               style: TextStyle(color: Colors.blue)),
                         ],
                       ),
                     ),
                     onTap: ()async{
-                      var url = Uri.parse("mailto:info@tahmeedexpress.com");
+                      var url = Uri.parse("mailto:goldencoachlimited@gmail.com");
                       if (await canLaunchUrl(url)) {
                       await launchUrl(url);
                       } else {
@@ -96,11 +96,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet 0735356561",
+                    child: Text("$bullet 0724 152137",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel:0735356561");
+                      var url = Uri.parse("tel:0724 152137");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {
@@ -111,11 +111,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet 0729356561",
+                    child: Text("$bullet 0724 152137",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel:0729356561");
+                      var url = Uri.parse("tel:0724 152137");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {

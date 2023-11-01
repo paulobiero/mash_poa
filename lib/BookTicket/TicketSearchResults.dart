@@ -251,7 +251,7 @@ class _TicketSearchResults extends State<TicketSearchResults> {
                               children: [
                                 Positioned(
                                     child: Image.asset(
-                                      'assets/images/images-removebg-preview.png',
+                                      'assets/images/golden_logo.png',
                                       height: 50,
                                       width: 100,
                                     ))

@@ -108,7 +108,7 @@ class _SignUpPage extends State<SignUpPage> {
                           text: TextSpan(
                             text: "Create",
                             style: TextStyle(
-                                color: Colors.orange.shade700,
+                                color:  Colors.green.shade700,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 30),
                             children: const <TextSpan>[
@@ -499,8 +499,8 @@ class _SignUpPage extends State<SignUpPage> {
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(30),
                                   gradient: LinearGradient(colors: [
-                                    Colors.orange.shade700,
-                                    Colors.orange.shade700,
+                                     Colors.green.shade700,
+                                     Colors.green.shade700,
                                   ])),
                               child: const Center(
                                 child: Text(

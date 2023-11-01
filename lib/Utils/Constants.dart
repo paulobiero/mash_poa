@@ -10,7 +10,7 @@ class AppUrl {
 
   static const String liveBaseURL = "http://api.ma3app.com/";
   static const String devBaseURL = "http://bossapi.99synergy.com/";
-  static const String companyToken = "26B812BC-0529-4A57-8BD9-08820B7F46B3";
+  static const String companyToken = "6B658A2F-4A66-485C-B5D4-063FB37A0405";
   static const String defaultToken = "4F5D3QC5-C94A-CFD5-87C1-4E2903311DF0";
   static const String baseURL = liveBaseURL;
   static Uri login = Uri.parse(baseURL + "appApi/AppUser/LoginUsers");
@@ -77,13 +77,15 @@ class AppUrl {
 
   static String resendOTP = '${baseURL}appApi/AppUser/ReSendOTP';
 
-  static String companyName="Garissa Coach";
+  static String companyName="Golden Coach";
 
-  static String companyAbout="With a network covering all the top cities within the expansive East African region, Tahmeed Transporters is your number one bus company when it comes to comfortable, safe and affordable bus travel. With operations in Kenya, Uganda and Tanzania, the company has a fleet of over 50 luxurious and comfortable buses.\n"+"We have been in operation for a decade and our service delivery improves with age. Our fleet is built to 5-star specifications and an experience defined by professionalism and punctuality.\n"+
+  static String companyAbout="Unlike other passenger transport companies Golden Coach is a well-structured bus company run by a group of professional. The management is comprised of a team of unquestionable integrity personnel having worked for home based passenger transport companies."
 
-  "Our amazing line of luxury models buses with free WiFi, Electrical Charging Outlets, DVD players, reclining seats, air conditioned and flat screen TV’s. Our mission is to provide excellent, safe, and reliable transportation to all our clients.\n"+
+  "At Golden Coach we ensure all our buses have proper fitted and serviced speed governors."
 
-  "We also provide charter buses for all occasions. No matter where you want to go or when you want to go there, the easiest way to get there is with us. If you have any questions regardingÂ our company or services, please feel free to call or email us. Thank you for visiting our website and we look forward to handling your travel needs in near future.";
+  "Our drivers are well trained and moulded to avoid any competitive driving on the road by being monitored by our track system."
+
+  "At Golden Coach drivers work on a planned bus time schedule and on shift basis to avoid any fatigue on the road, making traveling with us the most safety way.";
   static Widget getAmenityItem(String item){
     late IconData icon=Icons.air;
     late String name;

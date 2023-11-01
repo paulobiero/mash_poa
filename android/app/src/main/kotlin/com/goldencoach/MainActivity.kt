@@ -1,4 +1,4 @@
-package com.garissacoach
+package com.goldencoach
 
 import io.flutter.embedding.android.FlutterActivity
 

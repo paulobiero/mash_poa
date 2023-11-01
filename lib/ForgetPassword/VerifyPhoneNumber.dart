@@ -161,7 +161,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                             text: "Forgot",
                             style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 30),
                             children:  <TextSpan>[
-                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.orange.shade700)),
+                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color:  Colors.green.shade700)),
 
                             ],
                           ),
@@ -278,7 +278,7 @@ class _VerifyPhoneNumber extends State<VerifyPhoneNumber> {
                                   margin: EdgeInsets.only(top: size.height*.1),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color: Colors.orange.shade700,
+                                      color:  Colors.green.shade700,
                                       borderRadius: BorderRadius.circular(12)),
                                   child: Center(
                                     child: Text('Continue',
