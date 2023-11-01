@@ -10,7 +10,7 @@ class AppUrl {
 
   static const String liveBaseURL = "http://api.ma3app.com/";
   static const String devBaseURL = "http://bossapi.99synergy.com/";
-  static const String companyToken = "26B812BC-0529-4A57-8BD9-08820B7F46B3";
+  static const String companyToken = "0823D32E-B5DD-4AB1-AEED-19EFA8678987";
   static const String defaultToken = "4F5D3QC5-C94A-CFD5-87C1-4E2903311DF0";
   static const String baseURL = liveBaseURL;
   static Uri login = Uri.parse(baseURL + "appApi/AppUser/LoginUsers");
