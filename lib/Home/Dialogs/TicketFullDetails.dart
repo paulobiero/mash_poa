@@ -60,7 +60,7 @@ class _TicketFullDetails extends State<TicketFullDetails> {
       ),
       floatingActionButton: widget.title.status == "Pending"
           ? FloatingActionButton.extended(
-              backgroundColor:  Colors.red.shade700,
+              backgroundColor:  Colors.blue.shade900,
               foregroundColor: Colors.black,
               onPressed: () async {
                 showDialog(

@@ -1,4 +1,4 @@
-package com.dreamlineapp
+package com.moyaleapp
 
 import io.flutter.embedding.android.FlutterActivity
 

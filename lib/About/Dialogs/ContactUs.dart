@@ -49,18 +49,18 @@ class _ContactUs extends State<ContactUs> {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
-                child: Text("DreamLine LTD",
+                child: Text("Moyale Liner LTD",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
                 padding: EdgeInsets.only(top: 10, right: 20, left: 20),
-                child: Text("Head Office,Mombasa",
+                child: Text("Head Office,Nairobi",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
                 padding: EdgeInsets.only(top: 10, right: 20, left: 20),
                 child: Text(
-                    "Ground Floor, Zahra Building, River Rd, Nairobi",
+                    "10 Street,Landstar Hotel Building Eastleigh, Nairobi",
                     style: GoogleFonts.rubik(fontSize: 15)),
               ),
               Padding(
@@ -73,13 +73,13 @@ class _ContactUs extends State<ContactUs> {
                         GoogleFonts.rubik(fontSize: 15, color: Colors.black),
                         children: const <TextSpan>[
                           TextSpan(
-                              text: 'info@dreamline.co.ke',
+                              text: 'info@moyaleliner.co.ke',
                               style: TextStyle(color: Colors.blue)),
                         ],
                       ),
                     ),
                     onTap: ()async{
-                      var url = Uri.parse("mailto:info@dreamline.co.ke");
+                      var url = Uri.parse("mailto:info@moyaleliner.co.ke");
                       if (await canLaunchUrl(url)) {
                       await launchUrl(url);
                       } else {
@@ -96,11 +96,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet  0710444411",
+                    child: Text("$bullet  0721438454",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel: 0710444411");
+                      var url = Uri.parse("tel: 0721438454");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {
@@ -111,11 +111,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet  0710444411",
+                    child: Text("$bullet  0729800591",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel: 0710444411");
+                      var url = Uri.parse("tel: 0729800591");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {
@@ -126,11 +126,11 @@ class _ContactUs extends State<ContactUs> {
               Padding(
                   padding: const EdgeInsets.only(top: 10, right: 20, left: 20),
                   child: GestureDetector(
-                    child: Text("$bullet  0710444411",
+                    child: Text("$bullet  0723963238",
                         style: GoogleFonts.rubik(
                             fontSize: 15, color: Colors.blue)),
                     onTap: () async {
-                      var url = Uri.parse("tel: 0710444411");
+                      var url = Uri.parse("tel: 0723963238");
                       if (await canLaunchUrl(url)) {
                         await launchUrl(url);
                       } else {

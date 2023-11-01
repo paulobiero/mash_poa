@@ -252,7 +252,7 @@ class _TicketSearchResults extends State<TicketSearchResults> {
                               children: [
                                 Positioned(
                                     child: Image.asset(
-                                      'assets/images/dreamline-logo.png',
+                                      'assets/images/logo.png',
                                       height: 50,
                                       width: 100,
                                     ))

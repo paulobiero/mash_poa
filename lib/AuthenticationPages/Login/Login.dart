@@ -169,7 +169,7 @@ class _Login extends State<Login> {
                           text: TextSpan(
                             text: "Login",
                             style: TextStyle(
-                                color:   Colors.red.shade700,
+                                color:   Colors.blue.shade900,
                                 fontWeight: FontWeight.bold,
                                 fontSize: 30),
                             children: const <TextSpan>[
@@ -299,7 +299,7 @@ class _Login extends State<Login> {
                                   margin: EdgeInsets.only(top: 20, bottom: 50),
                                   width: double.infinity,
                                   decoration: BoxDecoration(
-                                      color:   Colors.red.shade700,
+                                      color:   Colors.blue.shade900,
                                       borderRadius: BorderRadius.circular(30)),
                                   child: Center(
                                     child: Text('Login',

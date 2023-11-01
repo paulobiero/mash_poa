@@ -10,7 +10,7 @@ class AppUrl {
 
   static const String liveBaseURL = "http://api.ma3app.com/";
   static const String devBaseURL = "http://bossapi.99synergy.com/";
-  static const String companyToken = "5D42A68D-8353-4B2E-AB00-2270CBA4D76E";
+  static const String companyToken = "53G9C4ED-D6C8-596F-1208-2338D4B20265";
   static const String defaultToken = "4F5D3QC5-C94A-CFD5-87C1-4E2903311DF0";
   static const String baseURL = liveBaseURL;
   static Uri login = Uri.parse(baseURL + "appApi/AppUser/LoginUsers");
@@ -77,15 +77,15 @@ class AppUrl {
 
   static String resendOTP = '${baseURL}appApi/AppUser/ReSendOTP';
 
-  static String companyName="DreamLine";
+  static String companyName="Moyale Liner";
 
-  static String companyAbout="Unlike other passenger transport companies DreamLine is a well-structured bus company run by a group of professional. The management is comprised of a team of unquestionable integrity personnel having worked for home based passenger transport companies."
+  static String companyAbout="Unlike other passenger transport companies Moyale Liner is a well-structured bus company run by a group of professional. The management is comprised of a team of unquestionable integrity personnel having worked for home based passenger transport companies."
 
-  "At DreamLine we ensure all our buses have proper fitted and serviced speed governors."
+  "At Moyale Liner we ensure all our buses have proper fitted and serviced speed governors."
 
   "Our drivers are well trained and moulded to avoid any competitive driving on the road by being monitored by our track system."
 
-  "At DreamLine drivers work on a planned bus time schedule and on shift basis to avoid any fatigue on the road, making traveling with us the most safety way.";
+  "At Moyale Liner drivers work on a planned bus time schedule and on shift basis to avoid any fatigue on the road, making traveling with us the most safety way.";
   static Widget getAmenityItem(String item){
     late IconData icon=Icons.air;
     late String name;

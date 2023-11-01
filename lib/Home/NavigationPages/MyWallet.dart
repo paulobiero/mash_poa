@@ -95,7 +95,7 @@ class _MyWalletLanding extends State<MyWalletLanding> {
                     width: size.width *.95,
 
                     child: Card(
-                      color:  Colors.red.shade700,
+                      color:  Colors.blue.shade900,
                       elevation: 10,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(10)),
@@ -208,7 +208,7 @@ class _MyWalletLanding extends State<MyWalletLanding> {
                     ),
                     Padding(padding: EdgeInsets.only(left: 20,top: 30,right: 20),
                       child:  Text("View All",style:Theme.of(context).textTheme.headline5?.copyWith(
-                          color:   Colors.red.shade700,
+                          color:   Colors.blue.shade900,
                           fontSize: 16,
                           fontFamily: 'Montserrat',
                           fontWeight: FontWeight.bold)),

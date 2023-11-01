@@ -95,7 +95,7 @@ class _SignUpPage extends State<SignUpPage> {
                             text: "Forget",
                             style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 30),
                             children:  <TextSpan>[
-                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color:   Colors.red.shade700)),
+                              TextSpan(text: ' Password ', style: TextStyle(fontWeight: FontWeight.bold,color:   Colors.blue.shade900)),
 
                             ],
                           ),
@@ -243,8 +243,8 @@ margin: EdgeInsets.only(top: 180),
                                   borderRadius: BorderRadius.circular(10),
                                   gradient: LinearGradient(
                                       colors: [
-                                          Colors.red.shade700,
-                                          Colors.red.shade700,
+                                          Colors.blue.shade900,
+                                          Colors.blue.shade900,
                                       ]
                                   )
                               ),

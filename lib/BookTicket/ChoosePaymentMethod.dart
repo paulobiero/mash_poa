@@ -211,7 +211,7 @@ class _ChoosePaymentMethod extends State<ChoosePaymentMethod> {
                           margin: const EdgeInsets.only(top: 35, right: 20, left: 20),
                           padding: const EdgeInsets.only(top: 10, bottom: 10),
                           decoration: BoxDecoration(
-                            border: Border.all(color: selected?  Colors.red.shade700:Colors.grey.shade400,width: selected?2:1),
+                            border: Border.all(color: selected?  Colors.blue.shade900:Colors.grey.shade400,width: selected?2:1),
                             borderRadius: const BorderRadius.all(Radius.circular(10)),
                             color: Colors.white,
                           ),
@@ -428,7 +428,7 @@ class _ChoosePaymentMethod extends State<ChoosePaymentMethod> {
                       decoration: BoxDecoration(
                           borderRadius: const BorderRadius.all(Radius.circular(30)),
                           boxShadow: const <BoxShadow>[],
-                          color:selectedPaymentMethod.isNotEmpty?   Colors.red.shade700:Colors.grey.shade200),
+                          color:selectedPaymentMethod.isNotEmpty?   Colors.blue.shade900:Colors.grey.shade200),
                       child:  Text(
                         'Make payment',
                         style: TextStyle(
@@ -471,7 +471,7 @@ class _ChoosePaymentMethod extends State<ChoosePaymentMethod> {
         margin: EdgeInsets.only(top: 15, right: 20, left: 20),
         padding: EdgeInsets.only(top: 10, bottom: 10),
         decoration: BoxDecoration(
-          border: Border.all(color:selectedPaymentMethod==e?  Colors.red.shade700: Colors.grey.shade400,width: selectedPaymentMethod==e?2:1),
+          border: Border.all(color:selectedPaymentMethod==e?  Colors.blue.shade900: Colors.grey.shade400,width: selectedPaymentMethod==e?2:1),
           borderRadius: const BorderRadius.all(Radius.circular(10)),
           color: Colors.white,
         ),
