@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.moyaleapp">
+    package="com.moyaleraha">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <queries>
@@ -19,7 +19,7 @@
         android:label="Moyale Liner">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.moyaleraha.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
