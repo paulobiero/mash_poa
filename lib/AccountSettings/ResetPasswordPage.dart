@@ -252,7 +252,7 @@ class _ResetPasswordPageState extends State<ResetPasswordPage> {
                       child: Container(
                           height: 40,
                           decoration: BoxDecoration(
-                              color:  Colors.green.shade700,
+                              color:   Colors.red.shade700,
                               borderRadius: BorderRadius.circular(10)),
                           child: Center(
                             child: Text('Change password',

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.goldencoach">
+    package="com.dreamlineapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <queries>
@@ -15,11 +15,11 @@
     </queries>
     <application
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher_golden"
-        android:label="Golden Coach">
+        android:icon="@mipmap/ic_launcher_dreamline"
+        android:label="DreamLine">
 
         <activity
-            android:name="com.goldencoach.MainActivity"
+            android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"

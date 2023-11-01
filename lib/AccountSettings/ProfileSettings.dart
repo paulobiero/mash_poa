@@ -175,7 +175,7 @@ class _ProfileSettingsState extends State<ProfileSettings> {
                                 child: Container(
                                     height: 40,
                                     decoration: BoxDecoration(
-                                        color:  Colors.green.shade700,
+                                        color:   Colors.red.shade700,
                                         borderRadius:
                                             BorderRadius.circular(10)),
                                     child: Center(
@@ -244,7 +244,7 @@ class _ProfileSettingsState extends State<ProfileSettings> {
                                 child: Container(
                                     height: 40,
                                     decoration: BoxDecoration(
-                                        color:  Colors.green.shade700,
+                                        color:   Colors.red.shade700,
                                         borderRadius:
                                             BorderRadius.circular(10)),
                                     child: Center(

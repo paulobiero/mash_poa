@@ -1,4 +1,4 @@
-package com.goldencoach
+package com.dreamlineapp
 
 import io.flutter.embedding.android.FlutterActivity
 

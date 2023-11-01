@@ -36,7 +36,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
         decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(30)),
             boxShadow: <BoxShadow>[],
-            color: Colors.green.shade700),
+            color:  Colors.red.shade700),
         child: const Text(
           'Login',
           style: TextStyle(fontSize: 20, color: Colors.white),
@@ -112,7 +112,7 @@ class _AuthLandingPage extends State<AuthLandingPage> {
                           color: Colors.white),
                       padding: EdgeInsets.only(top: 10,left: 10,right: 10),
                       child: Image.asset(
-                        'assets/images/golden_logo.png',
+                        'assets/images/dreamline-logo.png',
                         height: 30,
                       ) ,
                     )),
@@ -192,12 +192,12 @@ class _AuthLandingPage extends State<AuthLandingPage> {
                 Positioned(
                     width: 200,
                     height: 200,
-                    top: height.height * .45,
+                    top: height.height * .40,
                     child: Container(
                       decoration: const BoxDecoration(
                           image: DecorationImage(
                               image: AssetImage(
-                                  'assets/images/315542929_2399997580184467_5101675180173133792_n-removebg-preview.png'))),
+                                  'assets/images/Snapinsta.app_318258728_1364772064270449_1321162725664981610_n_1080-removebg-preview.png'))),
                     ))
               ],
             ),
