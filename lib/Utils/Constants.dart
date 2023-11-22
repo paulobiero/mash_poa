@@ -8,7 +8,7 @@ import 'package:mash/Models/TripListModel.dart';
 class AppUrl {
 //  {"phone":799442437,"newPassword":"46hBE.yefqEsg","confirmPassword":"46hBE.yefqEsg","token":"794F7674-542C-4674-A475-0D0C6AFA617F"}
 
-  static const String liveBaseURL = "http://api.ma3app.com/";
+  static const String liveBaseURL = "https://iabiri.com/";
   static const String devBaseURL = "http://bossapi.99synergy.com/";
   static const String companyToken = "0823D32E-B5DD-4AB1-AEED-19EFA8678987";
   static const String defaultToken = "4F5D3QC5-C94A-CFD5-87C1-4E2903311DF0";
